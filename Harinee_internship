@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Your custom CSS can go here */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your Resume</h1>
+    <form id="resumeForm">
+      <h2>Personal Information</h2>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" class="form-control" id="phone" required>
+      </div>
+      <!-- Other personal information fields go here -->
+
+      <h2>Education</h2>
+      <div class="form-group">
+        <label for="university">University</label>
+        <input type="text" class="form-control" id="university" required>
+      </div>
+      <div class="form-group">
+        <label for="degree">Degree</label>
+        <input type="text" class="form-control" id="degree" required>
+      </div>
+      <!-- Education fields go here -->
+
+      <h2>Work Experience</h2>
+      <div class="form-group">
+        <label for="jobTitle">Job Title</label>
+        <input type="text" class="form-control" id="jobTitle" required>
+      </div>
+      <div class="form-group">
+        <label for="company">Company</label>
+        <input type="text" class="form-control" id="company" required>
+      </div>
+      <!-- Work experience fields go here -->
+
+      <h2>Skills</h2>
+      <div class="form-group">
+        <label for="skills">Skills</label>
+        <input type="text" class="form-control" id="skills" required>
+      </div>
+      <!-- Skills fields go here -->
+      <button type="submit" class="btn btn-primary">Download</button>
+    </form>
+
+    <div id="preview">
+      <!-- Preview of the resume will be displayed here -->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Your custom JavaScript for form handling and preview functionality can go here
+  </script>
+</body>
+</html>
